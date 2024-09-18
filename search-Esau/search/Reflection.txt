@@ -1,0 +1,12 @@
+What problems did you encounter? How did you overcome them?
+	- Given how little I knew about python, one of the main issues was battleing syntax errors. I tried to practice different techiques that would 
+		challenge me using python. This helped improve my overall understanding of the language. Another issue was at the start, dealing with building 
+		the first search algorithm. I was heavliy confused on what data we were given. We were guided toward the search agents file, but it was a tab it overwhelming 
+		to read and understand fully. 
+
+Did anything surprise you? What did you learn from it?
+	- What really surpized me was how similar the algorithms are. It was all basically the same base structure with some small rules that we needed
+		to implement. 
+Can you explain why your heuristics for Q6 and Q7 are admissible and consistent?
+	- The heuristics are admissible because they are less that the full cost toward any of our goals.
+		They remain this way through out the whole game, making the heuristics consistent. 
