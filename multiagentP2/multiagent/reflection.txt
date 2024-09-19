@@ -1,0 +1,29 @@
+What problems did you encounter? How did you overcome them?
+	- Apart from all the sytax erros :) and having done project 1, everything is a bit more clear. No major issues that I couldnt fix fortunately, 
+	   just a lot of small mathatical and indentation erros. 
+
+Did anything surprise you? What did you learn from it?
+
+	- One thing that surpized me is the fact that these search alorithms are similar. They each have their own quirks that 
+	   give them individuality and functionallity. 
+
+
+
+Describe what thought went into your evaluation functions (Q1 and Q5). How might they still be improved?
+	- Q1: 
+	The evaluation function takes in the current game state and an action, and returns a score indicating how good the resulting state is for Pacman. 
+				The function computes the distance to the nearest ghost and nearest food, using Manhattan distance.
+				If there are no ghosts, the distance is set to a high value, and if there is no food, the distance is set to 0. 
+				The distances are then combined with the current score to get the final evaluation. 
+				The distance to the nearest ghost is subtracted from the score with a small constant in the denominator to prevent division by zero, 
+				and the distance to the nearest food is also subtracted with a smaller constant in the denominator to reduce its impact on the overall score.
+
+
+
+	- Q5:	
+	The betterEvaluationFunction calculates a score based on Pacman's position, the positions of food dots and ghosts, and the scared times of the ghosts. 
+				It penalizes Pacman for being closer to a ghost and rewards Pacman for being closer to food dots.
+				The function adjusts the score by subtracting 7 divided by the distance to the nearest ghost plus 1 and dividing the distance to the nearest food dot by 3.
+				If Pacman is close to a scared ghost, it sets the distance to the nearest scared ghost to -10. 
+				Finally, the function returns the current score of the game adjusted by the penalties and rewards based on Pacman's position.
+	
