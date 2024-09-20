@@ -1,0 +1,8 @@
+What problems did you encounter? How did you overcome them?
+-After assignments 0-3, I am a lot more comfortable with python. So the number of issues was reduced heavily. 
+Did anything surprise you? What did you learn from it?
+	- Question 2 was the most surpizing given how we learned to set values for our policies. These projects are challenging and help us 
+		extend our coding knowledge. 
+Describe what thought went into your answers to question 2. Are there any other settings of parameters that may also have worked?
+	- I am certain that there are other parameters that could have worked. These numbers have appeared through a series of trial and error.
+	They are tailored to the specifics of each question. 
