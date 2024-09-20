@@ -4,7 +4,7 @@ Search Algorithms using Pacman game interface
 Single Agent 
 - Breadth First
 - Depth First
-- astart
+- Astar
 - Uniform Cost 
 
 Multi Agent 
